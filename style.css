@@ -1,0 +1,43 @@
+/* CSS Document */
+.kyw-box{
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 2px #eee;
+  border-radius: 5px;
+  max-width:250px;
+  font-size:14px;
+  margin:10px auto;
+}
+.clear{ clear:both; }
+.kyw-hr{border-bottom: 1px solid #eee;
+height: 1px;
+background-color: #ddd;
+margin: 5px 0;}
+.kyw-title{
+  background-color:#369;
+  padding:5px 10px;
+  border-radius:5px 5px 0 0;
+  }
+.kyw-title a{
+  color:#fff;
+  }
+.kyw-content{
+  margin:10px;
+  overflow:auto;
+  max-height: 250px;
+}
+.kyw-at{ color:#369; font-weight:700; }
+.kyw-content .kyw-read{ color: #aaa; }
+.kyw-more{ text-align:center; }
+.kyw-more a{ color:#f90; }
+.kyw-copy{
+  padding:3px 10px;
+  }
+.kyw-copy .get{
+  float:right;
+  }
+.kyw-copy a,.kyw-copy{
+  font-size:10px;
+  color:#ccc;
+  }
+.kyw-copy .ap{ float:left; }
